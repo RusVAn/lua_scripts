@@ -1,0 +1,91 @@
+
+ -help -- Displays this help    
+
+ ---- Top scores ---   
+
+ -top         -- Shows top ten scores    
+ -tope         -- Shows top ten scores     
+ -tophour   -- Shows top ten scores for the last hour     
+ -topday    -- Shows top ten scores for the  last day    
+ -topweek   -- Shows top ten scores for the last week    
+
+ -toprun         -- Shows top ten runs    
+ -toperun         -- Shows top ten runs   
+ -tophourun    -- Shows top ten runs for the last hour 
+ -topdayrun    -- Shows top ten runs for the last day  
+ -topweekrun   -- Shows top ten runs for the last week 
+
+ - toplucky   -- -- Shows top ten lucky points
+
+ ---Statistics----    
+
+ -topv -- Displays top ten average typing speed
+ -topvi -- Displays top ten instant typing speed
+ -topevi -- Displays all-time top ten greatest typing speed
+ -topvr -- Displays top ten of fastest answer
+ -topevr -- Displays all-time top  ten fastest answer
+ -topr -- Displays the total number of questions you  won points for
+ -topp  --Displays top daily & weekly prizes received (for points & longest run)
+ -showallrang  --Shows all-ranks (each player has a hierarchical rank according to the number of gained points)
+ -topd -- Shows top duel scores 
+ -topdz -- Shows the day’s top duel scores
+ -toprec -- Shows top ten fastest answer record (a total number of questions you had the fastest answer to)
+ ----------------------    
+ -si  -- Shows trivia info about the performance of each player
+ -sip nick -- Shows trivia info about a selected player performance
+
+ -----duel----------- 
+
+
+ -duel  -- Challenge any player to a duel (anyone can respond by typing -aduel)
+ -dduel tinta -- Challenge teams to a duel (game between two teams of two players each; the team which will launch the challenge will have to type -dduel followed by the name of the teammate in order to be in the same team)
+ -duelt tinta-miza -- Launch a challenge to a specific player (type -duelt followed by the name of the player you want to compete with; this activity is like a poker game you may choose how many points you’d like to be in stake, the winner will take it all)
+ --duelta tinta-miza --Launch a challenge to a specific player, this will offer the challenged opponent an advance of 5 points (if you’d like a bit of adrenaline)
+ -aduel -- Type -aduel to accept an already launched challenge
+ -adduel -- Type -adduel to accept a doubles’ match
+ -myduel -- Shows your duels
+
+
+
+ Duel - a contest arranged between two players in order to answer a given set of questions (there will be 15 questions to be answered). The player which answers most of them will be considered the winner and the duel will end. 
+ The winner will receive a prize of 150 points + the remaining points x 10
+ The defeated one will lose the remaining points x 10
+ The set includes 15 questions to be answered
+
+ ------Teams---------- 
+
+ -showteam     -- Displays the name of the teams and a total of points held
+ -topmyteam    -- Displays the top of team (own team) members ranked according to the points gained
+ -topteam      -- Shows top team trivia scores
+ -showTeams    -- Displays a list with all members from all teams
+ -leaveteam    -- Type this in order to quit a team
+
+
+ --For operators
+
+ --For admin
+ -showq   -- This command is used to show a chosen question
+ -createmotd -- This command is used to create a new motd
+ -motd -- write the motd (adding the top 10 players of the day)
+
+
+-- For owner
+ -addteam name-team-number This command is used to assign a new member to a team (each group has a rank number, type -showteam to see what number the team has)
+  -addmember nick-numar - Type -addmember nick-number to add a member as the player of team number x
+  -delmember nick       - Type -delmember to take a player out of the team
+
+  -slc -- Type -slc to display a list with all commands used by owners
+  -resetpoints 0-0 -- Type -resetpoints to reset all current trivia scores (these are usually subject of reset on the first day of each month) 
+  -resetpoints 1-0 -- Type -resetpoints to reset all current trivia scores and eternal score
+  -resetpoints 0-1 -- Type -resetpoints to reset all current trivia scores and duels
+  -resetpoints 1-1 -- Type -resetpoints to reset all current trivia scores, duels and eternal score
+
+
+if the scores are compromised
+
+  -loadsaveH -- Type -loadsaveH to reload the hourly saved scores 
+  -loadsaveD -- Type -loadsaveD to reload daily saved scores
+
+
+
+
