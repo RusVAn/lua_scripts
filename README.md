@@ -102,3 +102,24 @@ For example:
 
 	<[G]burek> !sql off
 	<[GUSAR]> You have now exited the "SQL mode".
+
+Slot listen (slotlist.lua)
+---
+This script shows a list of active users with free slots typing +slots command.
+
+VH Memo (vh_memo.lua)
+----
+This script sends memories in hub mainchat. Use:
+
+	!addmemo [memo] add a new memory (use ~~~ for new line)
+	!delmemo ID   delelete the memory with given ID
+	!memolist  list of all memories
+
+VH PM Box (vh_pmbox.lua)
+---
+A solution to send messages to offline users. Use:
+
+	!sendmsg <nick> <text> to send a new message
+	!inbox
+	!outbox
+	!pmbot (only OP) when you leave the hub a BOT will log all received messages
