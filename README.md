@@ -1,7 +1,15 @@
 Here you can find a collection of LUA scripts for Verlihub. To find more scripts search on http://ro.4242.hu/cgi-bin/yabb2/YaBB.pl (Hungarian forums) or ask Google
 
+Download Blocker
+---
+*LUA 5.0.x only*
+This script will block downloads to no-registered users. Guest user (class 0), who will try to download a file, will recieve a alert message
+
+
 HubPoll.lua
 ----
+*LUA 5.0.x only*
+
 This script allows OPs to post polls that users can vote on. Useful for gathering the general opinion of the hub.
 When a user connects to the hub (if he hasen't already voted and he has a relvant class), he will be prompted that there is a poll available and he will see some general information about commands. 
 Script has been set up so only the admin (creator) can delete the poll. None - except the admin - will be able to see the results until he have voted. 
