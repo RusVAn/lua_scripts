@@ -9,7 +9,7 @@
 --                      parameter setted bellow
 --                                 IMPORTANT:
 --  You need to put into the folder /etc/verlihub/scripts/ the library utils.lua.lib
---       .. you can get it from: http://forums.verlihub-project.org/viewtopic.php?f=14&t=4648
+--       .. you can get it from: http://verlilinker.svn.sourceforge.net/viewvc/verlilinker/
 --------------------------------------------------------------------------------
 
 mc = "^!mc"  ---

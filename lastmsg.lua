@@ -1,3 +1,8 @@
+-- Copyright (c) by Sergey Leonovich 2008
+-- E-Mail: sheep2k@gmail.com
+-- Improved by burek
+
+-- Wanted messages count minus one
 MAX_MSG = 30
 DATE_FORMAT = '%d/%b/%Y %H:%M:%S'
 local msgs = {}
