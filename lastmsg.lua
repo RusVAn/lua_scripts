@@ -4,7 +4,7 @@
 
 -- Wanted messages count minus one
 MAX_MSG = 30
-DATE_FORMAT = '%d/%b/%Y %H:%M:%S'
+DATE_FORMAT = '%d/%m/%Y %H:%M:%S'
 local msgs = {}
 
 --------------------------------------------------------------------------------
